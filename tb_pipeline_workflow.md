@@ -104,6 +104,8 @@ cat results/snp-sites/constant_sites.txt
 ### Tree Inference with IQ-TREE
 
 ``` bash
+mamba activate iqtree
+
 bash scripts/06-run_iqtree.sh
 ```
 
