@@ -116,7 +116,7 @@ bash scripts/06-run_iqtree.sh
 Use the provided script to root the tree using a specified outgroup:
 
 ``` bash
-python scripts/root_tree.py -i preprocessed/iqtree/Nam_TB.treefile -g MTBC0 -o results/iqtree/Nam_TB_rooted.treefile
+python scripts/root_tree.py -i preprocessed/iqtree/BotsNam_TB.treefile -g MTBC0 -o results/iqtree/BotsNam_TB_rooted.treefile
 ```
 
 ------------------------------------------------------------------------
@@ -141,7 +141,7 @@ Combine `sample_info.csv` metadata with TB-Profiler output for
 visualization.
 
 ``` bash
-python scripts/merge_tb_data.py -s sample_info.csv -t preprocessed/tb-profiler/Nam_TB.txt
+python scripts/merge_tb_data.py -s sample_info.csv -t preprocessed/tb-profiler/BotsNam.txt
 ```
 
 ------------------------------------------------------------------------
