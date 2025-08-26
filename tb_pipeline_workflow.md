@@ -1,8 +1,6 @@
-M. tuberculosis WGS
+Genomic Investigation of Cross-Border *M. tuberculosis* Transmission
 ================
 2025-08-26
-
-# Genomic Investigation of Cross-Border *M. tuberculosis* Transmission
 
 This repository contains the bioinformatics workflow for analyzing
 whole-genome sequencing (WGS) data to investigate cross-border
